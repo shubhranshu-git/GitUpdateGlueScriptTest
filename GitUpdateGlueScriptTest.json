@@ -1,0 +1,11 @@
+{
+  "name" : "GitUpdateGlueScriptTest",
+  "description" : "updating the script",
+  "role" : "arn:aws:iam::aws_account_id:role/MyTestRole",
+  "command" : {
+    "name" : "glueetl",
+    "scriptLocation" : "s3://aws-glue-assets-139097848366-us-east-1/scripts/GitUpdateGlueScriptTest.py",
+    "pythonVersion" : "3"
+  }
+}            
+          
